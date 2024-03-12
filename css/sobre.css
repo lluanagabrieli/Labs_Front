@@ -1,5 +1,12 @@
+:root {
+    /* #333 é a mesma coisa que #333333 */
+    --cor-base: #333; 
+    --cor-fundo-img: #F2EDED;
+    --cor-borda-img: #ccc;
+}
+
 body {
-    color: #333333;
+    color: var(--cor-base);
     font-family: "Vazirmatn", sans-serif;
 }
 
@@ -8,12 +15,12 @@ h1 {
 }
 
 h2 {
-    border-bottom: 2px groove #333333;
+    border-bottom: 2px groove var(--cor-base);
 }
 
 figure {
-    background-color: #F2EDED;
-    border: 1px solid #ccc;
+    background-color: var(--cor-fundo-img);
+    border: 1px solid var(--cor-borda-img);
     text-align: center;
 }
 

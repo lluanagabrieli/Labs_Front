@@ -1,0 +1,20 @@
+:root {
+    --cor-primaria: #575757;
+    --cor-secundaria: #868686;
+    --cor-destaque: #f47fc1;
+    --cor-de-fundo: #91c1fc;
+}
+
+h1 {
+    color: var(--cor-destaque);
+}
+
+h2 {
+    color: var(--cor-primaria);
+    background-color: var(--cor-destaque);
+}
+
+p {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-de-fundo);
+}
