@@ -3,6 +3,7 @@
     --cor-base: #333; 
     --cor-fundo-img: #F2EDED;
     --cor-borda-img: #ccc;
+    --cor-titulo-especial: #e856a4;
 }
 
 body {
@@ -39,4 +40,10 @@ figcaption {
 p {
     padding: 0 45px;
     text-indent: 15px;
+}
+
+#diferenciais {
+    color: var(--cor-titulo-especial);
+    font-style: italic;
+    text-align: center;
 }
