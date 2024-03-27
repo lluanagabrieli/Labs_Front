@@ -3,9 +3,18 @@
     --cor-secundaria: #868686;
     --cor-destaque: #f47fc1;
     --cor-de-fundo: #91c1fc;
+    --azul-escuro-link: #003366;
+    --cor-body: #333;
+    --fonte-texto: "Jura", sans-serif;
+    --fonte-titulo: "Roboto Mono", monospace;
 }
 
-h1 {
+body {
+    color: var(--cor-body);
+    font-family: var(--fonte-texto);
+}
+
+/* h1 {
     color: var(--cor-destaque);
 }
 
@@ -18,3 +27,27 @@ p {
     color: var(--cor-secundaria);
     background-color: var(--cor-de-fundo);
 }
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    margin-bottom: 5px;
+} */
+
+.sacola {
+    background: url(/img/sacola.png) no-repeat top right;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes a {
+    color: var(--azul-escuro-link)
+}
+
