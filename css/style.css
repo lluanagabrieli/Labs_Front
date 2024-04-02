@@ -14,6 +14,22 @@ body {
     font-family: var(--fonte-texto);
 }
 
+.sacola {
+    background: url(/img/sacola.png) no-repeat top right;
+    font-size: 14px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes a {
+    color: var(--azul-escuro-link)
+}
+
 /* h1 {
     color: var(--cor-destaque);
 }
@@ -34,20 +50,3 @@ div {
     border: 1px solid #000;
     margin-bottom: 5px;
 } */
-
-.sacola {
-    background: url(/img/sacola.png) no-repeat top right;
-    font-size: 14px;
-    padding-right: 35px;
-    text-align: right;
-    width: 140px;
-}
-
-.menu-opcoes ul {
-    font-size: 15px;
-}
-
-.menu-opcoes a {
-    color: var(--azul-escuro-link)
-}
-
