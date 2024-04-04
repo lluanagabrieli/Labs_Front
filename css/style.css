@@ -21,6 +21,19 @@ body {
     text-align: right;
     width: 140px;
     padding-top: 8px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header {
+    position: relative;
+}
+
+.menu-opcoes {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .menu-opcoes ul {
@@ -39,6 +52,7 @@ body {
 .container {
     margin: 0 auto;
     width: 90%;
+    /* border: 1px solid red; */
 }
 
 /* h1 {
