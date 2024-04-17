@@ -1,0 +1,71 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+
+body {
+    width: 60%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    background-color: #d3c7f2;
+    border-radius: 15px;
+}
+
+fieldset input, select {
+    font-size: medium;
+}
+
+fieldset legend {
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.grid-button-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5px 0;
+    gap: 5px;
+}
+
+.grid-button-container input[type="submit"] {
+    background-color: #9e7af8;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.grid-button-container input {
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.grid-button-container input[type=submit] {
+    background-color: #9e7af8;
+}
+
+.grid-button-container input[type=submit]:hover {
+    background-color: #6d37f6;
+    transition: 0.5s;
+}
+
+.grid-button-container input[type=reset] {
+    background-color: #f8b17a;
+}
+
+.grid-button-container input[type=reset]:hover {
+    background-color: #f67f24;
+}
