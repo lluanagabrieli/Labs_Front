@@ -69,3 +69,19 @@ fieldset legend {
 .grid-button-container input[type=reset]:hover {
     background-color: #f67f24;
 }
+
+.grid-header-container {
+    display: grid;
+    grid-template-areas: 'top-left top-right';
+    border-bottom: 3px solid #cacaca;
+    margin-bottom: 10px;
+}
+
+.top-right {
+    grid-area: top-right;
+    justify-self: right;
+}
+
+.top-left {
+    grid-area: top-left;
+}
