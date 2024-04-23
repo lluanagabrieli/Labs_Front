@@ -7,6 +7,8 @@
     --cor-body: #333;
     --fonte-texto: "Jura", sans-serif;
     --fonte-titulo: "Roboto Mono", monospace;
+
+    --cor-menu-lateral: #dcdcdc;
 }
 
 body {
@@ -55,23 +57,45 @@ header {
     /* border: 1px solid red; */
 }
 
-/* h1 {
-    color: var(--cor-destaque);
+.busca,
+.menu-departamentos {
+    background-color: var(--cor-menu-lateral) ;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left;
 }
 
-h2 {
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+    margin: 10px;
+}
+
+.menu-departamentos li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+    list-style: none;
+}
+
+.menu-departamentos a {
     color: var(--cor-primaria);
-    background-color: var(--cor-destaque);
+    text-decoration: none;
 }
 
-p {
-    color: var(--cor-secundaria);
-    background-color: var(--cor-de-fundo);
+.busca- input[type=search] {
+    width: 170px;
+    vertical-align: middle;
 }
 
-div {
-    width: 100px;
-    height: 100px;
-    border: 1px solid #000;
-    margin-bottom: 5px;
-} */
+.menu-departamentos {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    clear: left;
+}
+
+.destaque {
+    margin-top: 10px;
+}
