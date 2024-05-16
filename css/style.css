@@ -9,8 +9,10 @@
     --fonte-titulo: "Roboto Mono", monospace;
     --cor-menu-lateral: #dcdcdc;
 
-    --cor-painel-novidades: #F5DCDC;
-    --cor-painel-mais-novidades: #dcdcf5;   
+    --cor-painel-novidades: #f5dcdc;
+    --cor-painel-mais-novidades: #dcdcf5;  
+    --cor-painel-mais-novidades-gradient:#f4bebe;  
+    --cor-painel-novidades-gradient: #bebef4; 
 }
 
 body {
@@ -189,4 +191,51 @@ footer {
     position: absolute;
     top: 12px;
     right: 0;
+}
+
+.menu-opcoes a:hover {
+    color: #007dc6;
+}
+
+
+.menu-opcoes a:active {
+    color: red;
+}
+
+.menu-departamentos li ul {
+    display: none;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos ul ul li {
+    background-color: #dcdcdc;
+}
+
+.menu-departamentos li li a:before {
+    content: '- ';
+}
+
+.painel {
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 4px #0a98fd;
+}
+
+.painel h2 {
+    text-shadow: 3px 3px 2px;
+    opacity: 50%;
+}
+
+.novidades {
+    background-image: linear-gradient( var(--cor-painel-novidades), 
+    var(--cor-painel-novidades-gradient))
+   ;
+}
+
+.mais-vendidos {
+    background-image: linear-gradient(var(--cor-painel-mais-novidades), 
+    var(--cor-painel-mais-novidades-gradient))
+   ;
 }
