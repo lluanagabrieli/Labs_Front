@@ -239,3 +239,14 @@ footer {
     var(--cor-painel-mais-novidades-gradient))
    ;
 }
+
+.painel li:hover  {
+    box-shadow: 0 0 10px var(--azul-escuro-link);
+    transition: 1s ease-out;
+    transform: scale(1.2) rotate(-5deg);
+    background: var(--cor-painel-novidades);
+}
+
+.painel li:nth-child(2n):hover {
+    transform: scale(1.2) rotate(5deg);
+}
