@@ -102,6 +102,7 @@ header {
 
 .destaque {
     margin-top: 10px;
+    position: relative;
 }
 
 .painel {
@@ -250,4 +251,25 @@ footer {
 
 .painel li:nth-child(2n):hover {
     transform: scale(1.2) rotate(5deg);
+}
+
+.pause {
+    border-left: 10px solid #900;
+    border-right: 10px solid #900;
+    height: 30px;
+    width: 5px;
+}
+
+.play {
+    border-left: 25px solid #900;
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+}
+
+.pause ,
+.play {
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 15px;
 }
